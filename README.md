@@ -1,6 +1,5 @@
 # 5-kaggle-competition
-diamonds
-*https://www.kaggle.com/c/diamonds-datamad0620/overview*
+
 
 <img src="inputs/diamante-grezzo.jpg">
 <br>
@@ -8,7 +7,8 @@ diamonds
 
 # Project Goals
 The goal of this competition is the prediction of the price of diamonds based on their characteristics (weight, color, quality of cut, etc.), putting into practice all the machine learning techniques you know.
-The goal is to predict a continuous target variable, it is said to be a **regression task**.
+The goal is to predict a continuous target variable, it is said to be a **regression task**.<br>
+Link kaggle competition: *https://www.kaggle.com/c/diamonds-datamad0620/overview*
 ​<br>
 <br>
 
