@@ -47,28 +47,28 @@ The goal of ensemble methods is to combine the predictions of several base estim
 The best prediction methods for this diamond price prediction problem were found to be respectively:<br>
 **1- GradientBoostingRegressor**<br>
 tuned whit `params=(n_estimators = 100, loss='huber', min_samples_leaf=6, max_depth=7,max_leaf_nodes=250, min_samples_split=45)`<br>
-`RMSE=474.89712806494185`
+`RMSE=474.89712806494185`<br>
 **2- HistGradientBoostingRegressor**<br>
 tuned whit `params=(max_depth=8, min_samples_leaf=6)`<br>
-`RMSE=531.4433490228398`
+`RMSE=531.4433490228398`<br>
 **3- RandomForestRegressor**<br>
 tuned whit `params=(n_estimators=500, max_depth=15, min_samples_leaf=3, n_jobs=-1)`<br>
-`RMSE=533.875343545384`
+`RMSE=533.875343545384`<br>
 **4- Extra Tree Regressor**<br>
 tuned whit `params=(max_features='log2', n_jobs=-1)`<br>
-`RMSE=546.6463913185166`
+`RMSE=546.6463913185166`<br>
 **5- BaggingRegressor**<br>
 tuned whit `params=(n_estimators=14)`<br>
-`RMSE=547.4550303837045`
+`RMSE=547.4550303837045`<br>
 **6- KNeighborsClassifier**<br>
 tuned whit `params=(n_neighbors=1, algorithm='brute', p=1)`<br>
-`RMSE=773.0013101770397`
+`RMSE=773.0013101770397`<br>
 **7- Linear Regression**<br>
 tuned whit `params=(without params)`<br>
-`RMSE=1165.9673289710706`
+`RMSE=1165.9673289710706`<br>
 **8- GaussianNB**<br>
 tuned whit `params=(without params)`<br>
-`RMSE=1341.8201798533694`
+`RMSE=1341.8201798533694`<br>
 
 <br>
 
